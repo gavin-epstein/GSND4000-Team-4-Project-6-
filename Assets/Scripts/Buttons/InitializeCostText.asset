@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InitializeCostText
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":135.6962,"y":25.16027},"zoom":0.8,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":175.0,"y":-7.0},"guid":"fb9e58dc-b89a-4bb0-9c88-b6c05c912b6c","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"type":"System.String","value":{"$content":"Cost","$type":"System.String"},"defaultValues":{},"position":{"x":-96.0,"y":84.0},"guid":"58f15280-3c34-4346-b8bb-54b45d2de6b7","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"CostText","$type":"System.String"},"object":null},"position":{"x":-120.0,"y":168.0},"guid":"cda067f1-e64a-4d6f-85c9-7dab1ad86532","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"CurrencySymbolColor","$type":"System.String"},"object":null},"position":{"x":-144.0,"y":264.0},"guid":"7f008ec5-da63-4542-a6ee-aee5ed73aa2c","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"coroutine":false,"defaultValues":{},"position":{"x":-336.0,"y":-24.0},"guid":"5afe4819-4608-423a-9d9d-0a00e9155cc1","$version":"A","$type":"Unity.VisualScripting.Start","$id":"18"},{"type":"System.Int32","value":{"$content":0,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-36.0,"y":24.0},"guid":"2924d70d-ca0d-40eb-916d-8e1e5eb62fe5","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"20"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"LinearIncrease","guid":"434e12fa-f477-4cc4-8031-424ce114c34b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"CostVariableName","guid":"cd76cd4c-8e12-4dee-b87f-cc6ba2207a46","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"TextToEdit","guid":"739f81a5-3c58-4a7c-bb08-cc8a7cd05b4a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"CurrencySymbolColor","guid":"b68dd9f7-7212-422a-823d-ead37428400c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"IncrementAmount","guid":"ee744969-1c3d-4498-b872-0f80e3ef1a24","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c8777d4e6cb6f8d4e9b8e7c806dc9771, type: 2}
