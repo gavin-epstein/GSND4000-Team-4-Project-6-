@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0bd086bd70935144ea904f4c1346756d
+guid: 82cd1c1154a6eed4c99d25e7ac84f31c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5766447026463523074
-    second: lockicon_0
+      213: 1713068796949060936
+    second: Factory_Blue_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lockicon_0
+      name: Factory_Blue_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 94
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efeb88b3bf679ffa0800000000000000
-      internalID: -5766447026463523074
+      spriteID: 84d54fd9efa06c710800000000000000
+      internalID: 1713068796949060936
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      lockicon_0: -5766447026463523074
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
