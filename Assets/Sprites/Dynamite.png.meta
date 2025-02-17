@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0bd086bd70935144ea904f4c1346756d
+guid: 2e9080430a5f9d345a78a7b2b0c1e8a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5766447026463523074
-    second: lockicon_0
+      213: -4003982261762975687
+    second: Dynamite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lockicon_0
+      name: Dynamite_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 300
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efeb88b3bf679ffa0800000000000000
-      internalID: -5766447026463523074
+      spriteID: 93817a0d85ffe68c0800000000000000
+      internalID: -4003982261762975687
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lockicon_0: -5766447026463523074
+      Dynamite_0: -4003982261762975687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
