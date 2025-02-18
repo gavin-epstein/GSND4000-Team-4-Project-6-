@@ -1239,6 +1239,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463056675}
   m_CullTransparentMesh: 1
+--- !u!1 &1653045331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9007992848341085708, guid: c2863c980a7b92340bd4fa9e0c8ab512, type: 3}
+  m_PrefabInstance: {fileID: 2363878158068308044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1653045336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653045331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: f9f89cd50c2ad69469d955d80bacf12b, type: 2}
 --- !u!1 &2145179506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,6 +1369,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7470495578801834897, guid: c2863c980a7b92340bd4fa9e0c8ab512, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TimeLeft","value":{"$content":120.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimesBought","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EndScreen","value":{"$content":"EndScreen","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 9007992848341085708, guid: c2863c980a7b92340bd4fa9e0c8ab512, type: 3}
       propertyPath: m_Name
       value: GameTimer
@@ -1355,7 +1383,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9007992848341085708, guid: c2863c980a7b92340bd4fa9e0c8ab512, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1653045336}
   m_SourcePrefab: {fileID: 100100000, guid: c2863c980a7b92340bd4fa9e0c8ab512, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
