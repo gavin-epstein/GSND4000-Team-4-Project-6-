@@ -147,7 +147,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IncrementAmount","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1678671291684852485, guid: d5d4cb8c4bdd8d74b899d9aa0284f67a, type: 3}
+    - {fileID: 3625631570472857709, guid: 1539375a82a0c5c47855590e248a9b5c, type: 3}
     - {fileID: 2276363027490462569}
 --- !u!114 &4295713945589851012
 MonoBehaviour:
@@ -780,7 +780,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IncrementAmount","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1678671291684852485, guid: d5d4cb8c4bdd8d74b899d9aa0284f67a, type: 3}
+    - {fileID: 6102229213414901408, guid: 7ae4883e72695004e96d16fb07c4c58b, type: 3}
     - {fileID: 5672206453336466695}
 --- !u!114 &8088518022756110177
 MonoBehaviour:
@@ -2009,7 +2009,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IncrementAmount","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1678671291684852485, guid: d5d4cb8c4bdd8d74b899d9aa0284f67a, type: 3}
+    - {fileID: 2083246767377297297, guid: c0ff139611bd8e04dad02fed530280e8, type: 3}
     - {fileID: 5731510600425986255}
 --- !u!114 &5435690661478284452
 MonoBehaviour:
