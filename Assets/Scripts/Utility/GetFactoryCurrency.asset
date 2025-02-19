@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: GetFactoryCurrency
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":"Red","$type":"Factories"},"_type":"Factories","key":"FactoryType","label":"FactoryType","summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.String","key":"CurrencyName","label":"CurrencyName","summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":-39.0,"y":142.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-312.0,"y":12.0},"guid":"e3bc6beb-42c1-457b-a667-05b45c2aa8d5","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"11"},{"enumType":"Factories","defaultValues":{},"position":{"x":-132.0,"y":12.0},"guid":"28dfc224-d143-4e0f-9492-ae0a151dc1d2","$version":"A","$type":"Unity.VisualScripting.SelectOnEnum","$id":"13"},{"type":"System.String","value":{"$content":"RedMoney","$type":"System.String"},"defaultValues":{},"position":{"x":-312.0,"y":108.0},"guid":"4fb1406f-2eb3-4de9-b731-a7399e13b3a0","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"type":"System.String","value":{"$content":"GreenMoney","$type":"System.String"},"defaultValues":{},"position":{"x":-324.0,"y":204.0},"guid":"d832df6e-2c86-4a73-bf23-e6eeac231f0b","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"17"},{"type":"System.String","value":{"$content":"BlueMoney","$type":"System.String"},"defaultValues":{},"position":{"x":-312.0,"y":300.0},"guid":"e3990612-3205-4c95-87e5-171bf5065ee5","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"19"},{"defaultValues":{},"position":{"x":72.0,"y":12.0},"guid":"59f3e015-c476-4e20-af9a-9484c673b1a7","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"21"},{"sourceUnit":{"$ref":"11"},"sourceKey":"FactoryType","destinationUnit":{"$ref":"13"},"destinationKey":"selector","guid":"1d999d44-e5e9-4cbe-83aa-1784dc991c71","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%Red","guid":"fb24a7d2-dabe-4fe4-83f8-0c7cca277cc6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%Green","guid":"9a33cf66-d903-4b1a-84bb-8604db52d7d6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%Blue","guid":"36448afa-7c59-4cf3-836c-aa45ea14b39d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"selection","destinationUnit":{"$ref":"21"},"destinationKey":"CurrencyName","guid":"6b3d31c4-6802-4689-8aee-c68f7fa513af","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
