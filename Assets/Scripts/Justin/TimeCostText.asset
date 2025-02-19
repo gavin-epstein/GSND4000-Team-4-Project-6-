@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: TimeCostText
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-94.0,"y":52.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-300.0,"y":-96.0},"guid":"baa6774e-c0b3-4f24-a3bd-ff417ed09ed4","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-324.0,"y":0.0},"guid":"de87d450-57f4-4085-a22d-db18fbd5df32","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"11"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"GameTimer","$type":"System.String"}},"position":{"x":-540.0,"y":108.0},"guid":"ec686914-b1a7-4279-ab26-730ed56be0bc","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"TimeIncrease","$type":"System.String"},"object":null},"position":{"x":-348.0,"y":96.0},"guid":"e19e87fd-9de4-4dd2-82ef-5110be3d4e0d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"chainable":false,"parameterNames":["sourceText","arg0","arg1"],"member":{"name":"SetText","parameterTypes":["System.String","System.Single","System.Single"],"targetType":"TMPro.TextMeshProUGUI","targetTypeName":"TMPro.TextMeshProUGUI","$version":"A"},"defaultValues":{"target":null,"%sourceText":{"$content":"{0}
+      <voffset=-.2em><size=200%><color=#639bff>\u25cf</color></size></voffset> for
+      {1:} seconds ","$type":"System.String"},"%arg0":{"$content":0.0,"$type":"System.Single"},"%arg1":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-120.0,"y":-96.0},"guid":"84d543d3-041b-4943-af11-c0e9c8b32a42","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"d476366a-f588-4dd0-8716-6d0b3968bee7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"object","guid":"54bedc38-f5f6-450d-a6b2-f9caccb7f43e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Cost","destinationUnit":{"$ref":"18"},"destinationKey":"%arg0","guid":"b55600a9-cd1e-4cb1-bd55-4651a267e61a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"%arg1","guid":"a6fa5aa0-d8c0-4f1c-9eb8-85ea7c589a89","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 76a61fa0adc99d74ba9c6afeaf6302dd, type: 2}
